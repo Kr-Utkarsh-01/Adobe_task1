@@ -1,0 +1,142 @@
+[
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_GRAD_CREDITS_TOTAL",
+    "category": "graduation",
+    "text": "A student must accumulate a minimum of 144 academic credits plus 12 non-graded core units for the award of the BTech degree in Computer Science and Engineering.",
+    "numeric_limit": 144.0,
+    "applies_to": "BTech CSE"
+  },
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_GRAD_NON_GRADED_UNITS",
+    "category": "graduation",
+    "text": "A student must earn 12 units of non-graded core (NC) courses through prescribed formal and informal co-curricular activities (including NCN100 Wellbeing and NSS/NSO).",
+    "numeric_limit": 12.0,
+    "applies_to": "BTech CSE"
+  },
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_INSTITUTE_CORE_CREDITS",
+    "category": "curriculum_distribution",
+    "text": "Students in BTech CSE must complete a minimum of 40.5 credits of Institute Core (IC) courses.",
+    "numeric_limit": 40.5,
+    "applies_to": "BTech CSE"
+  },
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_PROGRAM_CORE_CREDITS",
+    "category": "curriculum_distribution",
+    "text": "Students in BTech CSE must complete a minimum of 52 credits of Program Core (PC) courses.",
+    "numeric_limit": 52.0,
+    "applies_to": "BTech CSE"
+  },
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_PROGRAM_ELECTIVE_CREDITS",
+    "category": "curriculum_distribution",
+    "text": "Students in BTech CSE must complete a minimum of 22.5 credits of Program Elective (PE) courses.",
+    "numeric_limit": 22.5,
+    "applies_to": "BTech CSE"
+  },
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_OPEN_ELECTIVE_CREDITS",
+    "category": "curriculum_distribution",
+    "text": "Students in BTech CSE must complete a minimum of 15 credits of Open Elective (OE) courses.",
+    "numeric_limit": 15.0,
+    "applies_to": "BTech CSE"
+  },
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_LIBERAL_ARTS_CREDITS",
+    "category": "curriculum_distribution",
+    "text": "Students in BTech CSE must complete a minimum of 10 credits of Liberal Arts (LA) courses.",
+    "numeric_limit": 10.0,
+    "applies_to": "BTech CSE"
+  },
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_MAX_SEMESTER_CREDIT_LOAD",
+    "category": "credit_limit",
+    "text": "The standard maximum semester credit registration is bounded by the curriculum template load, typically not exceeding 22.0 credits per regular semester.",
+    "numeric_limit": 22.0,
+    "applies_to": "BTech CSE"
+  },
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_MIN_SEMESTER_CREDIT_LOAD",
+    "category": "credit_limit",
+    "text": "A student must register for a minimum course load of 12.0 credits in any regular semester to maintain full-time undergraduate standing.",
+    "numeric_limit": 12.0,
+    "applies_to": "BTech CSE"
+  },
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_PREREQUISITE_PASS_GRADE",
+    "category": "prerequisites",
+    "text": "Each course may specify prerequisite courses. A student who has obtained an F, FS, I, or X grade in a prerequisite course is not eligible to register for the course.",
+    "numeric_limit": 4.0,
+    "applies_to": "all courses"
+  },
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_COURSE_OVERLAP_LIMIT",
+    "category": "registration",
+    "text": "If a course has more than 25% overlapping content with another course already credited by the student, the student is not eligible to register for that course.",
+    "numeric_limit": 25.0,
+    "applies_to": "all courses"
+  },
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_NPTEL_MAX_CREDIT_LIMIT",
+    "category": "online_credits",
+    "text": "BTech students can take V-type courses (lectures by external experts or approved NPTEL courses, 1-2 credits each, running >= 1 month) up to a maximum of 6 credits during the entire program.",
+    "numeric_limit": 6.0,
+    "applies_to": "BTech"
+  },
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_CREDIT_VALIDITY_LIFETIME",
+    "category": "credit_validity",
+    "text": "The credits earned for any course are valid for up to 7 years only and shall not be counted towards degree requirements if acquired earlier than 7 years.",
+    "numeric_limit": 7.0,
+    "applies_to": "all courses"
+  },
+  {
+    "source_url": "https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs",
+    "retrieved_on": "2026-11-10",
+    "source_type": "official",
+    "id": "RULE_MIN_FIRST_CLASS_CGPA",
+    "category": "graduation",
+    "text": "For employment or external certification requirements, an IIT Bhilai graduate having 6.0 CGPA and above is certified as First Class.",
+    "numeric_limit": 6.0,
+    "applies_to": "BTech CSE"
+  }
+]
