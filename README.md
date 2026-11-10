@@ -80,3 +80,8 @@ python run_pipeline.py
 - [x] **`REPORT.md`**: Part D Data Quality Report covering field fill rates, DAG checks, and verification procedures.
 - [x] **`IDEAS.md`**: Part E deliverables detailing 3 answerable and 3 unanswerable questions.
 - [x] **Single-Command:** `python run_pipeline.py` executes cleanly without network calls or LLM dependencies.
+
+---
+
+## 5. AI Tool Disclosure
+In accordance with assignment guidelines, AI coding assistants (Google Antigravity / Gemini) were utilized for repository scaffolding, boilerplate generation, and verification script synthesis. All ingested curriculum data, academic regulations, prerequisite graphs, and licensing details were verified against official IIT Bhilai publications and open repository sources.
