@@ -1,6 +1,6 @@
 # Adobe Personalized Learning Buddy: Knowledge Base & Data Pipeline
 
-A source-traced knowledge base and reproducible data pipeline for **B.Tech Computer Science & Engineering (CSE)** at **IIT Bhilai**, designed for the Adobe Selection Assignment (Inter IIT Tech Meet 15.0).
+A source-traced knowledge base and reproducible data pipeline for **B.Tech Computer Science & Engineering (CSE)** at **IIT Bhilai**.
 
 ---
 
@@ -9,7 +9,6 @@ A source-traced knowledge base and reproducible data pipeline for **B.Tech Compu
 This repository builds the foundational data substrate for an AI-powered personalized learning buddy. It ingests official curriculum data, academic rules, and open learning resources, normalizes them against strict schemas, validates prerequisite graphs and integrity constraints, and exports clean metadata-rich chunks ready for downstream embedding.
 
 ### Ground Rules & Constraints Met
-- **Time Window:** 24-hour delivery scope.
 - **Strictly Offline:** Zero LLM or Embedding API calls. Pipeline terminates cleanly with structured `chunks.jsonl`.
 - **Single-Command Execution:** Fully reproducible via `python run_pipeline.py`.
 - **Source-Traced & Ethical:** 100% of data is derived from official institute publications ([`courseOfStudyIITBhilai.pdf`](courseOfStudyIITBhilai.pdf)) and open-licensed resources (NPTEL, MIT OCW). No private student records or unauthorized data.

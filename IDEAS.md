@@ -59,7 +59,7 @@
 > *"Will CSL304 (AI) have a lecture or lab clash with my open elective on Tuesdays at 2:00 PM?"*
 
 - **Why it Cannot Answer:**
-  The pipeline models academic program structures and semester curriculum templates (Autumn vs. Spring), but does *not* ingest real-time semester room allocations or weekly timetable slots, which change every academic session and are published separately by the Academic Office right before registration.
+  The pipeline models academic program structures and semester curriculum templates (Monsoon vs. Winter), but does *not* ingest real-time semester room allocations or weekly timetable slots, which change every academic session and are published separately by the Academic Office right before registration.
 
 ---
 
