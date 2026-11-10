@@ -2,7 +2,7 @@
 
 **Target Program:** B.Tech Computer Science and Engineering (CSE), Indian Institute of Technology Bhilai (IIT Bhilai)  
 **Pipeline Execution Mode:** Deterministic, Schema-First, Zero-LLM/Embedding Pipeline  
-**Execution Timestamp:** 2026-11-10  
+**Execution Timestamp:** 10-11-2026  
 
 ---
 
@@ -36,7 +36,7 @@ Every entity field is tracked and validated against Pydantic models with zero to
 | `prerequisites` | List[str] | 20 | 20 (empty list if none) | **100.0%** |
 | `syllabus` | String ($> 10$ chars) | 20 | 20 | **100.0%** |
 | `source_url` | HTTP/HTTPS URL | 20 | 20 | **100.0%** |
-| `retrieved_on` | YYYY-MM-DD Date | 20 | 20 | **100.0%** |
+| `retrieved_on` | DD-MM-YYYY Date | 20 | 20 | **100.0%** |
 | `source_type` | Literal["official"] | 20 | 20 | **100.0%** |
 
 ### B. Academic Rules (14 Records)
@@ -48,7 +48,7 @@ Every entity field is tracked and validated against Pydantic models with zero to
 | `numeric_limit` | Float / Optional | 14 | 14 | **100.0%** |
 | `applies_to` | String | 14 | 14 | **100.0%** |
 | `source_url` | HTTP/HTTPS URL | 14 | 14 | **100.0%** |
-| `retrieved_on` | YYYY-MM-DD Date | 14 | 14 | **100.0%** |
+| `retrieved_on` | DD-MM-YYYY Date | 14 | 14 | **100.0%** |
 | `source_type` | Literal["official"] | 14 | 14 | **100.0%** |
 
 ### C. Open Learning Resources (37 Records)
@@ -63,7 +63,7 @@ Every entity field is tracked and validated against Pydantic models with zero to
 | `format` | String | 37 | 37 | **100.0%** |
 | `duration_hours` | Float ($> 0$) | 37 | 37 | **100.0%** |
 | `url` | HTTP/HTTPS URL | 37 | 37 | **100.0%** |
-| `retrieved_on` | YYYY-MM-DD Date | 37 | 37 | **100.0%** |
+| `retrieved_on` | DD-MM-YYYY Date | 37 | 37 | **100.0%** |
 | `source_type` | Literal["open-licence"] | 37 | 37 | **100.0%** |
 
 ---
@@ -81,7 +81,7 @@ The pipeline implements an assertive "fail-loudly" philosophy in [`src/validate.
 3. **Primary Key / ID Uniqueness:**
    - Detects collision in course codes, rule IDs, or resource IDs.
 4. **Mandatory Provenance Verification:**
-   - Asserts valid HTTP/HTTPS URLs and ISO date strings (`YYYY-MM-DD`) on every entity.
+   - Asserts valid HTTP/HTTPS URLs and ISO date strings (`DD-MM-YYYY`) on every entity.
 5. **Foreign Key Referential Integrity:**
    - Asserts every open resource points to a validated course code.
 

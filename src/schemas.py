@@ -10,7 +10,7 @@ from pydantic import BaseModel, Field, HttpUrl
 class BaseEntity(BaseModel):
     """Base model with mandatory source provenance tracking."""
     source_url: str = Field(..., description="Official public or openly licensed URL")
-    retrieved_on: str = Field(..., description="Date retrieved in YYYY-MM-DD format")
+    retrieved_on: str = Field(..., description="Date retrieved in DD-MM-YYYY format")
     source_type: Literal["official", "open-licence", "manual"] = Field(
         ..., description="Provenance classification of the entity"
     )

@@ -11,3 +11,8 @@ __pycache__/
 .idea/
 .DS_Store
 Thumbs.db
+
+# Task initialization documents (do not commit/push)
+workspace_initialization_document_adobe_task.md
+courseOfStudyIITBhilai.pdf
+

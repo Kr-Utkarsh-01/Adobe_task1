@@ -9,7 +9,7 @@ This document strictly tracks all official, openly licensed data sources collect
 - **Source Entity:** IIT Bhilai (Indian Institute of Technology Bhilai)
 - **Document / Portal:** *Course of Study & Academic Regulations (BTech Programs)*
 - **Source URL:** [https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs](https://www.iitbhilai.ac.in/index.php?pid=new_schedule_programs)
-- **Retrieval Date:** 2026-11-10
+- **Retrieval Date:** 10-11-2026
 - **License / Terms:** Official Institute Publication (Public Institutional Information for Academic Reference)
 - **Entities Derived:**
   - 20 Academic Courses ([`data/raw/courses.csv`](file:///d:/Projects/Adobe/data/raw/courses.csv)): Exact course codes, course names, departments, numeric credits ($L-T-P-C$), semester sequence, course types (core/elective), and authoritative syllabus descriptions.
@@ -21,7 +21,7 @@ This document strictly tracks all official, openly licensed data sources collect
 
 All learning resources are exclusively curated from **NPTEL (National Programme on Technology Enhanced Learning / SWAYAM)** and **MIT OpenCourseWare (MIT OCW)** under open educational licenses.
 
-- **Retrieval Date:** 2026-11-10
+- **Retrieval Date:** 10-11-2026
 - **Total Resources:** 37
 - **Raw File:** [`data/raw/resources.csv`](file:///d:/Projects/Adobe/data/raw/resources.csv)
 
